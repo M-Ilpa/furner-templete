@@ -14,15 +14,17 @@
     <title>Furniro</title>
   </head>
   <body>
-    <header>
+    <header id="hidden">
       <img class="logo" src="./imgs/Frame 168.svg" alt="Logo" />
       <nav>
+        <div class="nor-header">
         <ul>
           <li><a href="#home">Home</a></li>
           <li><a href="#shop">Shop</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
+      </div>
       </nav>
       <div class="icons">
         <button>
@@ -40,6 +42,21 @@
           /></a>
         </button>
       </div>
+      <!-- start mobile nav bar -->
+       <div class="nav-icon" id="nav-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+       </div>
+       <div class="mobile-nav" id="mobile-nav">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#shop">Shop</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+       </div>
+      <!-- end mobile nav bar -->
     </header>
     <main>
       <section class="container">
@@ -298,6 +315,7 @@
       <p>2023 furino. All rights reverved</p>
     </div>
     </footer>
+    <script src="/main.js"></script>
   </body>
   
   
