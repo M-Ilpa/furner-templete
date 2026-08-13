@@ -326,6 +326,9 @@ section .articles article .dec del {
     background-color: rgba(58, 58, 58, 1);
     z-index: 3;
 }
+.articles article:hover::before{
+  display: none;
+}
 
 
 .thr-container .shw-btn {
