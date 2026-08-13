@@ -230,7 +230,9 @@ section .articles article .dec {
   padding-right: 24px;
   padding-bottom: 30px;
   padding-top: 16px;
+  
 }
+
 section .articles article .dec span {
   font-size: 20px;
   font-weight: 600;
@@ -252,6 +254,11 @@ section .articles article .dec del {
   font-weight: 400;
   color: #b0b0b0;
   text-decoration: line-through;
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+section .articles article:hover del {
+  opacity: 0;
 }
 .articles article::before {
   content: "-30%";
