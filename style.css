@@ -202,12 +202,10 @@ header .mobile-nav ul li:not(:last-child)
 }
 .sec-container figcaption {
   text-align: center;
+  font-weight: 600;
+  font-size: 24px
 }
 
-/* .sec-container figure  img{
-    height: 480px;
-    width: 397.33px;
-} */
 .thr-container {
   margin-top: 63px;
 }
