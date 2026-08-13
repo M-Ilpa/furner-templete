@@ -266,6 +266,8 @@ section .articles article .dec del {
   right: 25px;
   top: 24px;
   color: white;
+  opacity: 1;
+  transition: opacity 0.5s ease ;
 }
 .thr-container .heading h1 {
   margin-bottom: 32px;
@@ -327,7 +329,8 @@ section .articles article .dec del {
     z-index: 3;
 }
 .articles article:hover::before{
-  display: none;
+  opacity: 0;
+  
 }
 
 
