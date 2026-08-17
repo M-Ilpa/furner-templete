@@ -370,17 +370,22 @@ section .articles article:hover del {
   padding-bottom: 44px;
   padding-top: 44px;
   gap: 24px;
-  background-color: rgba(252, 248, 243, 1);
   margin-top: 62px;
+  
+  width: 1240px;
 }
-
+ .full-width {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(252, 248, 243, 1);
+  
+}
 .forth-container .box {
   position: relative;
-}
-.forth-container > section,
-.forth-container > figure {
-    flex: 1 1 0;
-    min-width: 0; 
+  margin-left: 38px;
 }
 .forth-container > figure > img {
     width: 100%;
@@ -427,12 +432,6 @@ section .articles article:hover del {
   align-content: center;
   padding-left: 12px;
 }
-
-.section-heading {
-  padding-left: 100px;
-  /* width: 399px; */
-  padding-right: 100px;
-}
 .section-heading h1 {
   font-weight: 700;
   font-size: 40px;
@@ -459,10 +458,6 @@ section .articles article:hover del {
   font-weight: 600;
   color: white;
 }
-.forth-container .sec-img {
-  margin-right: 100px;
-}
-
 footer .footer-container {
   display: flex;
   padding-top: 48px;
